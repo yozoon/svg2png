@@ -7,10 +7,12 @@ according to the Android Icon design Guidelines). To avoid the hassle of exporti
 each pixel density manually (and copying them in the right folder in my Android Project) I wrote 
 this script, which does all of this automatically. 
 
+This script was only tested on Ubuntu 14.04
+
 ## Prerequisites
 * Inkscape has to be installed and accessible via the command line
 * Android Studio Project directory structure (otherwise the scipt won't find the resource 
-  directories.
+  directories)
 
 ## PNG sizes
 
