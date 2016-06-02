@@ -26,12 +26,12 @@ this script, which does all of this automatically.
 ### Options and Parameters
 | Option | Parameter | Description |
 | ------ | --------- | ----------- |
-| -i     | <path>    | input file: specifies the path to the input SVG file |
-| -o     | <path>    | output directory: specifies the path to the Android Studio Project root directory. |
-| -n     | <name>    | name: the name to be used for the generated | 
-| -m     |           | mipmap: use this parameter to export the PNGs to the mipmap folder of the project's resources |
-|-d      |           | drawable: default. Create PNGs in the drawable folder of the project's resources. If -m and -d are supplied, the last parameter will be used. |
+| -i     | path      | input file: specifies the path to the input SVG file |
+| -o     | path      | output directory: specifies the path to the Android Studio Project root directory. |
+| -n     | name      | name: the name to be used for the generated | 
+| -m     | none      | mipmap: use this parameter to export the PNGs to the mipmap folder of the project's resources |
+| -d     | none      | drawable: default. Create PNGs in the drawable folder of the project's resources. If -m and -d are supplied, the last parameter will be used. |
 
 ### Example
 Create the PNG files based on icon.svg and save them to the mipmap folders:
-./svg2png.sh  -i /path/to/icon.svg -o /path/to/AndroidStudioProject/root/ -n name_to_be_used -m
+`./svg2png.sh  -i /path/to/icon.svg -o /path/to/AndroidStudioProject/root/ -n name_to_be_used -m`
