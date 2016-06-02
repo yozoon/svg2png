@@ -93,7 +93,6 @@ shift $((OPTIND-1))
 
 ####################################################################################################
 # Check if the input file exists                                                                   #
-# (by default zenity lists files of working directory, if dialog is cancelled)                     #
 ####################################################################################################
 if [ -z "$input_file" ]; then
 	echo "Input file ... not specified"
